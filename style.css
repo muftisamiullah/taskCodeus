@@ -1,0 +1,322 @@
+.logo {
+    width: 152px;
+    height: 32px;
+    object-fit: contain;
+  }
+
+.topper{
+  width: 100%;
+  margin-bottom: 40px;
+}
+.jumbo{
+  background-color:#f7f8f9;
+  height: 195px;
+  /* font-family:myFirstFont; */
+  
+}
+.container{
+  padding-top:2%;
+}
+.small{
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+}
+.footer-a{
+  font-size: 13px;
+  font-family:myFirstFont;
+  /* #888888; */
+}
+.footer-ul{
+  padding-right:150px;
+  /* border: 1px solid red; */
+}
+.Rectangle-7 {
+  /* width: 1440px; */
+  height: 70px;
+  background-color: #f7f8f9;
+}
+
+.responsive {
+  width: 100%;
+  height: 100%;
+}
+.contain{
+  /* align:center; */
+  margin-left: 140px;
+  width:1600px;
+}
+.div-centered {
+  text-align: left; 
+  margin: auto; 
+  width: 200px;
+}
+.ptags{
+  line-height:11px;
+  color: #888888;
+  font-family:myFirstFont;
+}
+.ptagss{
+  line-height:11px;
+  /* color: #696969; */
+  color:black;
+  font-family:myFirstFont;
+}
+.ptagsss{
+  line-height:11px;
+  font-size: 23px;
+  /* color: #696969; */
+  color:black;
+  font-family:myFirstFont;
+}
+.facebook {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  /* line-height:6px; */
+}
+.arrow{
+  height: 12px;
+  width:12px;
+}
+.pen{
+  height: 16px;
+  width:16px;
+}
+.p-up{
+  font-family: myFirstFont;
+  font-size: 25px;
+}
+.p-upp{
+  font-family: myFirstFont;
+  font-size: 25px;
+  color: #fd8c36;
+}
+.events{
+  text-align: center;
+  font-family:myFirstFont;
+  /* padding-bottom: 50px; */
+}
+.org{
+  color: #fd8c36;
+}
+.btn-l{
+  background-color: transparent;
+  color: white;
+  font-family:myFirstFont;
+}
+.btn-s{
+  background-color: #fd8c36;
+  border: #fd8c36;
+  width: 8em;
+  height:30px;
+  font-family:myFirstFont;
+  outline: none;
+}
+.btn-s:hover{
+  background-color: orange;
+  border: orange;
+  width: 8em;
+  height:30px;
+}
+.btn-search{
+  background-color: #fd8c36;
+  border: #fd8c36;
+  border-radius: 0 !important;
+  font-family:myFirstFont;
+  outline: none;
+}
+.btn-search:hover{
+  background-color: orange;
+  border: orange;
+  /* border-radius: 0 !important; */
+}
+
+h3{
+  font-family: myFirstFont;
+  font-size: 200%;
+  padding-bottom:12px;
+  margin-top: -5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{margin: 0; padding: 0;}
+.my-nav{position: relative;
+       top:0px;
+       width: 100%;
+       z-index: 999;
+       background:none;
+       border: none;
+       border-radius: 0;
+     
+ }
+ 
+.my-nav {
+  background-color:rgba(0,0,0,0.00);
+  border-color: rgba(0,0,0,0.00);
+}
+.my-nav .navbar-brand {
+  color: #ecf0f1;
+}
+.my-nav .navbar-brand:hover,
+.my-nav .navbar-brand:focus {
+  color: #ecdbff;
+}
+.my-nav .navbar-text {
+  color: #ecf0f1;
+}
+.my-nav .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+.my-nav .navbar-nav > li > a:hover,
+.my-nav .navbar-nav > li > a:focus {
+  color: #ecdbff;
+}
+.my-nav .navbar-nav > .active > a,
+.my-nav .navbar-nav > .active > a:hover,
+.my-nav .navbar-nav > .active > a:focus {
+  color: #ecdbff;
+  background-color: #3962ff;
+}
+.my-nav .navbar-nav > .open > a,
+.my-nav .navbar-nav > .open > a:hover,
+.my-nav .navbar-nav > .open > a:focus {
+  color: #ecdbff;
+  background-color: #3962ff;
+}
+.my-nav .navbar-toggle {
+  border-color: #3962ff;
+}
+.my-nav .navbar-toggle:hover,
+.my-nav .navbar-toggle:focus {
+  background-color: #3962ff;
+}
+.my-nav .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+.my-nav .navbar-collapse,
+.my-nav .navbar-form {
+  border-color: #ecf0f1;
+}
+.my-nav .navbar-link {
+  color: #ecf0f1;
+}
+.my-nav .navbar-link:hover {
+  color: #ecdbff;
+}
+ 
+@media (max-width: 767px) {
+  .my-nav .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1;
+  }
+  .my-nav .navbar-nav .open .dropdown-menu > li > a:hover,
+  .my-nav .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ecdbff;
+  }
+  .my-nav .navbar-nav .open .dropdown-menu > .active > a,
+  .my-nav .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .my-nav .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ecdbff;
+    background-color: #3962ff;
+  }
+}
+ 
+/*for full screen landing page*/
+html,body{margin: 0;padding: 0; width: 100%; height: 100%;}
+ 
+.wrapper{top:-70px;
+    position: relative;
+    width: 100%;
+      height: 100%;
+    background: url(images/picture@2x.jpg);
+    display: table;
+    background-size: cover;
+}
+.wrapper .inner{
+     
+    display: table-cell;
+    vertical-align: middle;
+    widows: 100%;
+    max-width: none;
+}
+.content{
+    text-align: center;
+    max-width: 7000px;
+    margin: 0 auto;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(https://fontsfree.net//wp-content/fonts/basic/sans-serif/FontsFree-Net-Proxima-Nova-Sbold.otf);
+}
+
+.content h4{color: #ffffff;
+      /* font-family: 'Raleway',sand-serif; */
+      font-family: myFirstFont;
+      text-shadow: 0 0 300px #000;
+    font-size: 200%;
+     
+ }
+.content p{color: aliceblue;font-size: 16px; font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif"; margin: 20px 0;}
+ 
+.thumbnail{border: none;}
+ 
+ 
+@media only screen and (max-width: 767px) {
+    .my-carousel{position: relative;
+            top:0px;
+                  
+}
+     
+    .navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff !important;
+}
+     
+    .navbar .navbar-brand {
+  color: white;
+}
+    .navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+  color:wheat;
+}
+    .my-nav{top:0;}
+    .navbar{margin-bottom: 0;}
+     
+.navbar-default .navbar-nav > li > a{color: black;}   /*link color change*/
+     
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color:#000000;
+    color: #fffff0;
+}/*change link color*/
+ 
+     .navbar-default .navbar-nav .open .dropdown-menu>li>a, .navbar-default .navbar-nav .open .dropdown-menu {
+    background-color: black;
+    color:#ffffff;
+  }/*change dropdown link color*/
+    .navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}/*icon bar color*/
+    .thumbnail{text-align: center;}
+     
+}
+ 
+.my-carousel {top:-70px}
