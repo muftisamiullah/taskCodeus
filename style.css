@@ -16,6 +16,7 @@
 }
 .container{
   padding-top:2%;
+  /* font-weight: 800; */
 }
 .small{
   width: 64px;
@@ -38,6 +39,7 @@
 }
 
 .responsive {
+  /* position: relative;   */
   width: 100%;
   height: 100%;
 }
@@ -68,6 +70,7 @@
   /* color: #696969; */
   color:black;
   font-family:myFirstFont;
+  font-weight:800;
 }
 .facebook {
   width: 18px;
@@ -112,6 +115,7 @@
   height:30px;
   font-family:myFirstFont;
   outline: none;
+  color: white;
 }
 .btn-s:hover{
   background-color: orange;
@@ -125,6 +129,9 @@
   border-radius: 0 !important;
   font-family:myFirstFont;
   outline: none;
+  height: 48px;
+  color: white;
+  box-shadow: 0.7px 0.7px #888888;
 }
 .btn-search:hover{
   background-color: orange;
@@ -139,6 +146,89 @@ h3{
   margin-top: -5px;
 }
 
+ .overlay:after, .overlay:before {
+  position: absolute;
+  opacity: 0;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+.overlay:after {
+  content: 'dnadjbabdb';
+  width: 100%; height:100%;
+  top: 0; left:0;
+  background:rgba(0,0,0,0.6);
+}
+.overlay:before {
+  content: attr('asdasd');
+  width: 100%;
+  color: #fff;
+  z-index: 1;
+  bottom: 0;
+  padding: 4px 10px;
+  text-align: center;
+  background: #f00;
+  box-sizing: border-box;
+  -moz-box-sizing:border-box;
+}
+
+/* .overlay:after {
+  content:'sdkadkaskd';
+  text-align: center;
+  z-index: 1;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  -webkit-transition: opacity 2s ease-out;
+  -moz-transition: opacity 2s ease-out;
+  -o-transition: opacity 2s ease-out;
+  transition: opacity 2s ease-out;
+} */
+
+.overlay:hover {
+  opacity: 0.7;
+}
+
+.thumbnail {
+  position: relative;
+}
+
+.caption {
+  position: absolute;
+  top: 45%;
+  left: 0;
+  width: 100%;
+  color:white;
+  font-family: myFirstFont;
+  font-size:24px;
+}
+.form-control{
+  height:70px;
+  /* width: 968px; */
+}
+
+.mycustom {
+  /* border: solid 1px green; */
+  position: relative;
+  border-radius: 0.5%;
+}
+.mycustom input[type=text] {
+  border: none;
+  width: 100%;
+  padding-right: 123px;
+  /* border-radius: 2%; */
+}
+.mycustom .input-group-prepend {
+  position: absolute;
+  right: 11px;
+  top: 11px;
+  bottom: 4px;
+  z-index:9;
+}
+.button-wrapper{
+  margin-left: 15px;
+}
+/* code for glyph icon on input type */
 
 
 
@@ -147,18 +237,7 @@ h3{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+/* code for adding background image with additional code for the elements on the picture */
 *{margin: 0; padding: 0;}
 .my-nav{position: relative;
        top:0px;
@@ -273,7 +352,7 @@ html,body{margin: 0;padding: 0; width: 100%; height: 100%;}
       /* font-family: 'Raleway',sand-serif; */
       font-family: myFirstFont;
       text-shadow: 0 0 300px #000;
-    font-size: 200%;
+    font-size: 180%;
      
  }
 .content p{color: aliceblue;font-size: 16px; font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif"; margin: 20px 0;}

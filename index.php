@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="stylesheet" href="FontsFree-Net-Proxima-Nova-Sbold.otf" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" type="text/css">
+    
         <title>Eventackle - HOME</title>
   </head>
 <body>
@@ -18,7 +20,7 @@
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
   <ul class="nav navbar-nav ml-auto pt-1">
     <li class="nav-item">
-      <button class="btn btn-primary btn-sm btn-s"><strong>Create Event</strong></button>
+      <button class="btn-sm btn-s"><strong>Create Event</strong></button>
     </li>
     <li class="nav-item">
     <button class="btn btn-outline btn-sm btn-l"><strong>Log In</strong></button>
@@ -39,7 +41,16 @@
   <div class="inner">
       <div class="content">
           <h4 class="wow fadeInDown" data-wow-delay="1s">Bringing all the people together through live experiences!</h4>
-          <button class="wow bounceInLeft btn btn-danger btn-lg btn-search">Search</button>
+          <div class="row ">
+            <div class="col-xs-3 mx-auto">
+              <div class="input-group mycustom md-3">
+                <input type="text" class="form-control inp" placeholder="Search events or categories" aria-describedby="button-addon2">
+                  <div class="input-group-prepend">
+                    <button class="wow bounceInLeft btn-lg btn-search">Search</button>
+                  </div>
+              </div>
+            </div>
+          </div>
       </div>
   </div>
 </div>
@@ -47,53 +58,171 @@
 <div class="events">
   <strong><p class="p-up" style="display:inline;">Events for you in</p> <p class="p-upp" style="display:inline;">Srinagar, India</p><strong>
     <img class="pen" src="images/ic-mode-edit-18-px.svg"></img>
-</div>
+</div><br>
 
-<div class="container">
-  <p class="ptagsss" style="text-align:center;">Event Categories</p>
-  <div class="row">
-    <div class="col-lg-7">
-      <div class="thumbnail">
-        <img class="responsive" src="images/oil.jpg">
+<!-- <div class="container"> -->
+  <div class="row justify-content-center align-self-center">
+    <div class="col-xs-2">
+      <div class="card mb-4 button-wrapper " style="width: 18rem;">
+        <img class="card-img-top" src="images/ist.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title ptagsss">Travelling Perks</h5>
+          <p class="card-text ptags">Monday, April 10, 6:00 PM<br><br>Creativity and Marketing</p>
+          <hr>
+          <img src="images/wishlist.svg"></img>
+          <a href="" class="btn btn-outline">Add to Wishlist</a>
+        </div>
       </div>
     </div>
-    <div class="col-lg-5">
-      <div class="thumbnail">
+    <div class="col-xs-2">
+      <div class="card mb-4 button-wrapper" style="width: 18rem;">
+        <img class="card-img-top" src="images/2nd.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title ptagsss">Ancient Architecture</h5>
+          <p class="card-text ptags">Monday, April 10, 6:00 PM<br><br>History</p>
+          <hr>
+          <img src="images/wishlist.svg"></img>
+          <a href="#" class="btn btn-outline">Add to Wishlist</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-2">
+      <div class="card mb-4 button-wrapper" style="width: 18rem;">
+        <img class="card-img-top" src="images/3rd.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title ptagsss">Adrenaline Rush</h5>
+          <p class="card-text ptags">Monday, April 10, 6:00 PM<br><br>History</p>
+          <hr>
+          <img src="images/wishlist.svg"></img>
+          <a href="#" class="btn btn-outline">Add to Wishlist</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-2">
+      <div class="card button-wrapper" style="width: 18rem;">
+        <img class="card-img-top" src="images/second.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title ptagsss">Long Paths</h5>
+          <p class="card-text ptags">Monday, April 10, 6:00 PM<br><br>Life and Goals</p>
+          <hr>
+          <img src="images/wishlist.svg"></img>
+          <a href="#" class="btn btn-outline">Add to Wishlist</a>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- </div> -->
+
+<div class="container">
+  <p class="ptagsss" style="text-align:center;">Featured Events</p><br>
+  <div class="row justify-content-center align-self-center">
+    <div class="col-xs-3">
+      <div class="card mb-4" style="width: 18rem;">
+        <img class="card-img-top" src="images/first.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title ptagsss">Creative Corner</h5>
+          <p class="card-text ptags">Monday, April 10, 6:00 PM<br><br>Creativity and Marketing</p>
+          <!-- <hr> -->
+          <!-- <a href="#" class="btn btn-outline">Add to Wishlist</a> -->
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-1">
+    </div>
+    <div class="col-xs-3">
+      <div class="card mb-4" style="width: 18rem;">
+        <img class="card-img-top" src="images/second.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title ptagsss">What made them lead..</h5>
+          <p class="card-text ptags">Monday, April 10, 6:00 PM<br><br>History</p>
+          <!-- <hr> -->
+          <!-- <a href="#" class="btn btn-outline">Add to Wishlist</a> -->
+        </div>
+      </div>
+    </div><div class="col-sm-1">
+    </div>
+    <div class="col-xs-3">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="images/third.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title ptagsss">Long Paths</h5>
+          <p class="card-text ptags">Monday, April 10, 6:00 PM<br><br>Life and Goals</p>
+          <!-- <hr> -->
+          <!-- <a href="#" class="btn btn-outline">Add to Wishlist</a> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <p style="color:#1aa2c5;">Show all (112)</p>
+</div>
+
+
+<div class="container">
+  <p class="ptagsss" style="text-align:center;">Event Categories</p><br>
+  <div class="row">
+    <div class="col-sm-7">
+      <div class="thumbnail text-center">
+        <img class="responsive" src="images/oil.jpg">
+        <div class="caption">
+            <p>Oil and Gas</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-5">
+      <div class="thumbnail text-center">
         <img class="responsive" src="images/mining.jpg">
+        <div class="caption">
+            <p>Mining</p>
+        </div>
       </div> 
     </div>
   </div> <br>
   <div class="row">
-    <div class="col-lg-4">
-      <div class="thumbnail">
+    <div class="col-sm-4">
+      <div class="thumbnail text-center">
         <img class="responsive" src="images/energy.jpg">
+        <div class="caption">
+            <p>Renewable Energy</p>
+        </div>
       </div>
     </div>
-    <div class="col-lg-4">
-      <div class="thumbnail">
+    <div class="col-sm-4">
+      <div class="thumbnail text-center">
         <img class="responsive" src="images/health.jpg">
+        <div class="caption">
+            <p>Health Care</p>
+        </div>
       </div> 
     </div>
-    <div class="col-lg-4">
-      <div class="thumbnail">
+    <div class="col-sm-4">
+      <div class="thumbnail text-center">
         <img class="responsive" src="images/air.jpg">
+        <div class="caption">
+            <p>Aviation</p>
+        </div>
       </div> 
     </div>
   </div>   
   <br>
   <div class="row">
-    <div class="col-lg-5">
-      <div class="thumbnail">
+    <div class="col-sm-5">
+      <div class="thumbnail text-center">
         <img class="responsive" src="images/dance.jpg">
+        <div class="caption">
+            <p>Music</p>
+        </div>
       </div>
     </div>
-    <div class="col-lg-7">
-      <div class="thumbnail">
+    <div class="col-sm-7">
+      <div class="thumbnail text-center">
         <img class="responsive" src="images/color.jpg">
+        <div class="caption">
+            <p>Creativity</p>
+        </div>
       </div> 
     </div>
   </div><br>
-  <p>Show all (12)</p>
+  <p style="color:#1aa2c5;">Show all (12)</p>
 </div> <br>
 
 
@@ -167,6 +296,9 @@
         </li>
         <li class="nav-item">
           <a class="nav-link footer-a" href="">Terms & Privacy</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link footer-a" href="http://muftisamiullah.co.nf">Designed by: muftisamiullah</a>
         </li>
       </ul>        
     </div>
