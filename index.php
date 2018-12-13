@@ -26,25 +26,16 @@
     <button class="btn btn-outline btn-sm btn-l"><strong>Log In</strong></button>
     </li>
 </div>
-
-
-
-
 </nav>
-<!--/.Mask-->
 
-<!-- <span class="ph-title">
-    <img class="responsive topper" src="hell.png">
-<div class="centered"><strong></strong></div>
-</span> -->
 <div class="wrapper">
   <div class="inner">
       <div class="content">
           <h4 class="wow fadeInDown" data-wow-delay="1s">Bringing all the people together through live experiences!</h4>
           <div class="row ">
-            <div class="col-xs-3 mx-auto">
+            <div class="col-sm-3 mx-auto">
               <div class="input-group mycustom md-3">
-                <input type="text" class="form-control inp" placeholder="Search events or categories" aria-describedby="button-addon2">
+                <input type="text" class="form-control" placeholder="Search events or categories" aria-describedby="button-addon2">
                   <div class="input-group-prepend">
                     <button class="wow bounceInLeft btn-lg btn-search">Search</button>
                   </div>
@@ -70,7 +61,7 @@
           <p class="card-text ptags">Monday, April 10, 6:00 PM<br><br>Creativity and Marketing</p>
           <hr>
           <img src="images/wishlist.svg"></img>
-          <a href="" class="btn btn-outline">Add to Wishlist</a>
+          <a href="" class="btn btn-outline ptags">Add to Wishlist</a>
         </div>
       </div>
     </div>
@@ -82,7 +73,7 @@
           <p class="card-text ptags">Monday, April 10, 6:00 PM<br><br>History</p>
           <hr>
           <img src="images/wishlist.svg"></img>
-          <a href="#" class="btn btn-outline">Add to Wishlist</a>
+          <a href="#" class="btn btn-outline ptags">Add to Wishlist</a>
         </div>
       </div>
     </div>
@@ -94,7 +85,7 @@
           <p class="card-text ptags">Monday, April 10, 6:00 PM<br><br>History</p>
           <hr>
           <img src="images/wishlist.svg"></img>
-          <a href="#" class="btn btn-outline">Add to Wishlist</a>
+          <a href="#" class="btn btn-outline ptags">Add to Wishlist</a>
         </div>
       </div>
     </div>
@@ -106,7 +97,7 @@
           <p class="card-text ptags">Monday, April 10, 6:00 PM<br><br>Life and Goals</p>
           <hr>
           <img src="images/wishlist.svg"></img>
-          <a href="#" class="btn btn-outline">Add to Wishlist</a>
+          <a href="#" class="btn btn-outline ptags">Add to Wishlist</a>
         </div>
       </div>
     </div>
