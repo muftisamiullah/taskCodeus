@@ -1,5 +1,5 @@
 # taskCodeus
-**task given by the director http://codeus.in --- http://codeus.in/newweb on December 11 2018. task was to copy a website named Eventackle https://eventackle.com/ actually the was not to copy the webiste https://eventackle.com/ but to design a similar web desgin that is showed below in the screenshots.**
+**task given by the director http://codeus.in --- http://codeus.in/newweb on December 11 2018. task was to copy a website named Eventackle https://eventackle.com/ actually the task was not to copy the webiste https://eventackle.com/ but to design a similar web desgin that is showed below in the screenshots.**
 
 ## Task Snapshots:
 ![Alt text](https://www.dropbox.com/s/ufumo77jv8ftbp2/Task%201.png?raw=true "screen shot of task pic 1")
