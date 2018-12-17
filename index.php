@@ -13,10 +13,13 @@
         <title>Eventackle - HOME</title>
   </head>
 <body>
-<nav class="navbar my-nav navbar-expand-lg navbar-light ">
+<nav class="navbar my-nav navbar-expand-lg navbar-light">
   <a class="navbar-brand" href="#">
     <img src="images/logo.svg" width="30" height="30" class="d-inline-block align-top logo" alt="">
   </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+  </button>
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
   <ul class="nav navbar-nav ml-auto pt-1">
     <li class="nav-item">
@@ -47,8 +50,7 @@
 </div>
 
 <div class="events">
-  <strong><p class="p-up" style="display:inline;">Events for you in</p> <p class="p-upp" style="display:inline;">Srinagar, India</p><strong>
-    <img class="pen" src="images/ic-mode-edit-18-px.svg"></img>
+  <strong><p class="p-up" style="display:inline;">Events for you in</p> <p class="p-upp" style="display:inline;">Srinagar, India</p><strong>  <img class="pen" src="images/ic-mode-edit-18-px.svg"></img>
 </div><br>
 
 <!-- <div class="container"> -->
@@ -105,7 +107,7 @@
 <!-- </div> -->
 
 <div class="container">
-  <p class="ptagsss" style="text-align:center;">Featured Events</p><br>
+  <p class="p-up" style="text-align:center;">Featured Events</p><br>
   <div class="row justify-content-center align-self-center">
     <div class="col-xs-3">
       <div class="card mb-4" style="width: 18rem;">
@@ -133,7 +135,7 @@
     </div><div class="col-sm-1">
     </div>
     <div class="col-xs-3">
-      <div class="card" style="width: 18rem;">
+      <div class="card mb-4" style="width: 18rem;">
         <img class="card-img-top" src="images/third.jpg" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title ptagsss">Long Paths</h5>
@@ -149,7 +151,7 @@
 
 
 <div class="container">
-  <p class="ptagsss" style="text-align:center;">Event Categories</p><br>
+  <p class="p-up" style="text-align:center;">Event Categories</p><br>
   <div class="row">
     <div class="col-sm-7">
       <div class="thumbnail text-center">
@@ -219,7 +221,7 @@
 
 <div class="jumbo">
   <div class="container">
-    <strong><h3 style="text-align:center;font-size:30px;">How Eventackle Works</h3></strong>
+    <strong><h3 class="p-up"style="text-align:center;">How Eventackle Works</h3></strong>
       <div class="row">
         <div class="col-sm-6">
           <span>
@@ -242,31 +244,53 @@
 <br>
 
 <div class="contain">
-  <div class="row text-left">
-    <div class="col-sm-3">
+  <div class="row">
+    <div class="col-sm-1">
+    </div>   
+    <div class="col-xs-2">
+      <div class="cards" style="width: 18rem;">
       <strong><p class="ptagss">Use Eventackle</p></strong>
       <p class="ptags">How it works</p>
       <p class="ptags">FAQ</p>
       <p class="ptags">Sitemap</p>
+      </div>
     </div>
-    <div class="col-sm-3">
-    <strong><p class="ptagss">For Organisers</p></strong>
-      <p class="ptags">List your event</p>
-      <p class="ptags">Testimonials</p>
-      <p class="ptags">Benefits</p>
+    <div class="col-sm-1">
+    </div>   
+    <!-- <div class="col-sm-1">
+    </div> -->
+    <div class="col-xs-2">
+      <div class="cards " style="width: 16rem;">
+        <strong><p class="ptagss">For Organisers</p></strong>
+        <p class="ptags">List your event</p>
+        <p class="ptags">Testimonials</p>
+        <p class="ptags">Benefits</p>
+        </div>  
       </div>
-    <div class="col-sm-3">
-    <strong><p class="ptagss">Events</p></strong>
-      <p class="ptags">About Us</p>
-      <p class="ptags">Careers</p>
-      <p class="ptags">Blog</p>
+      <div class="col-sm-1">
+    </div> 
+    <!-- <div class="col-sm-1">
+    </div>  -->
+    <div class="col-xs-2">
+     <div class="cards" style="width: 16rem;">
+        <strong><p class="ptagss">Events</p></strong>
+        <p class="ptags">About Us</p>
+        <p class="ptags">Careers</p>
+        <p class="ptags">Blog</p>
+        </div>
       </div>
-    <div class="col-sm-3">
-    <strong><p class="ptagss">Social</p></strong>
-      <p class="ptags"><img class="facebook" src="images/facebook.svg"></img></p>
-      <p class="ptags"><img class="facebook" src="images/twitter.svg"></img></p>
-      <p class="ptags"><img class="facebook" src="images/instagram.svg"></img></p>
-  </div>
+      <div class="col-sm-1">
+    </div> 
+    <!-- <div class="col-sm-1">
+    </div>  -->
+    <div class="col-xs-2">
+      <div class="cards" style="width: 16rem;"> 
+        <strong><p class="ptagss">Social</p></strong>
+        <p class="ptags"><img class="facebook" src="images/facebook.svg"></img> Facebook</p>
+        <p class="ptags"><img class="facebook" src="images/twitter.svg"></img> Twitter</p>
+        <p class="ptags"><img class="facebook" src="images/instagram.svg"></img> Instagram</p>
+      </div>
+    </div> 
   </div>
 </div>
 <br>
@@ -294,4 +318,3 @@
       </ul>        
     </div>
   </nav>
-</div>

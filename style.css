@@ -23,9 +23,13 @@
   height: 64px;
   object-fit: contain;
 }
+/* .footer{
+  background-color:#f7f8f9;
+  height: 115px;
+} */
 .footer-a{
   font-size: 13px;
-  font-family:myFirstFont;
+  font-family:mySecondFont;
   /* #888888; */
 }
 .footer-ul{
@@ -45,8 +49,8 @@
 }
 .contain{
   /* align:center; */
-  margin-left: 140px;
-  width:1600px;
+  margin-left: 20px;
+  /* width:1600px; */
 }
 .div-centered {
   text-align: left; 
@@ -56,27 +60,28 @@
 .ptags{
   line-height:11px;
   color: #888888;
-  font-family:myFirstFont;
+  font-family:mySecondFont;
+  font-weight: 100;
 }
 .ptagss{
   line-height:11px;
   /* color: #696969; */
   color:black;
-  font-family:myFirstFont;
+  font-family:mySecondFont;
 }
 .ptagsss{
   line-height:11px;
   font-size: 23px;
   /* color: #696969; */
   color:black;
-  font-family:myFirstFont;
+  font-family:mySecondFont;
   font-weight:800;
 }
 .facebook {
-  width: 18px;
-  height: 18px;
+  width: 12px;
+  height: 12px;
   object-fit: contain;
-  /* line-height:6px; */
+  /* line-height:2px; */
 }
 .arrow{
   height: 12px;
@@ -126,12 +131,14 @@
 .btn-search{
   background-color: #fd8c36;
   border: #fd8c36;
-  border-radius: 0 !important;
+  border-radius: 1.5px !important;
   font-family:myFirstFont;
+  font-size: 19px;
   outline: none;
-  height: 48px;
+  height: 52px;
   color: white;
   box-shadow: 0.7px 0.7px #888888;
+  width: 115px;
 }
 .btn-search:hover{
   background-color: orange;
@@ -199,7 +206,7 @@ h3{
   left: 0;
   width: 100%;
   color:white;
-  font-family: myFirstFont;
+  font-family: mySecondFont;
   font-size:24px;
 }
 .form-control{
@@ -221,7 +228,7 @@ h3{
 .mycustom .input-group-prepend {
   position: absolute;
   right: 11px;
-  top: 11px;
+  top: 8px;
   bottom: 4px;
   z-index:9;
 }
@@ -229,11 +236,6 @@ h3{
   margin-left: 15px;
 }
 /* code for glyph icon on input type */
-
-
-
-
-
 
 
 
@@ -326,7 +328,7 @@ html,body{margin: 0;padding: 0; width: 100%; height: 100%;}
     position: relative;
     width: 100%;
       height: 100%;
-    background: url(images/picture@2x.jpg);
+    background: url(images/picture@3x.jpg);
     display: table;
     background-size: cover;
 }
@@ -346,14 +348,23 @@ html,body{margin: 0;padding: 0; width: 100%; height: 100%;}
 @font-face {
   font-family: myFirstFont;
   visibility:hidden;
-  src: url(https://fontsfree.net//wp-content/fonts/basic/sans-serif/FontsFree-Net-Proxima-Nova-Sbold.otf);
+  src: url(Proxima-Nova-Bold.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: mySecondFont;
+  visibility:hidden;
+  src: url(ProximaNova-Semibold.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 .content h4{color: #ffffff;
       /* font-family: 'Raleway',sand-serif; */
       font-family: myFirstFont;
       text-shadow: 0 0 300px #000;
-    font-size: 180%;
+    font-size: 155%;
      
  }
 .content p{color: aliceblue;font-size: 16px; font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif"; margin: 20px 0;}
